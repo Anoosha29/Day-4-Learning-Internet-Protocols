@@ -1,0 +1,74 @@
+Day 4 - Internet Protocols Deep Study Notes
+
+✅ Topics Covered:
+
+1. What is TCP Protocol and Why It's Widely Used:
+
+    TCP stands for Transmission Control Protocol
+    It is a connection-oriented protocol
+    Ensures reliable data delivery through error checking, acknowledgments, and retransmission
+    Widely used in:
+     • Web Browsing (HTTP/HTTPS)
+     • Email (SMTP, IMAP, POP3)
+     • File Transfers (FTP, SFTP)
+     • Remote Access (SSH)
+
+2. How TCP Establishes Connection (3-Way Handshake):
+
+    Connection is created using a 3-step process:
+     • SYN → Client requests connection
+     • SYN-ACK → Server acknowledges and responds
+     • ACK → Client confirms
+    After handshake, data transfer starts securely
+
+3. What is UDP and Why It's Used for Fast Communication:
+    UDP stands for User Datagram Protocol
+    It is a connectionless protocol
+    No handshake, no confirmation – just send and forget
+    Faster but less reliable
+    Commonly used in:
+     • Online Gaming
+     • Video/Voice Calls (VoIP)
+     • Live Streaming
+     • DNS Lookups
+
+4. How UDP Establishes Connection:
+
+   - UDP does not establish any connection
+   - It simply sends packets without setup
+   - No reliability, no guarantee of delivery
+   - Called “fire-and-forget” protocol
+
+
+5. Difference Between TCP and UDP:
+
+
+| Feature             | TCP (Transmission Control Protocol) | UDP (User Datagram Protocol)  |
+|---------------------|-------------------------------------|-------------------------------|
+| Connection          | Connection-oriented                 | Connectionless                |
+| Speed               | Slower (reliable)                   | Faster (less reliable)        |
+| Reliability         | High (with ACKs, retransmissions)   | Low (no ACKs)                 |
+| Packet Order        | Maintained                          | Not guaranteed                |
+| Error Handling      | Built-in error recovery             | Minimal                       |
+| Use Cases           | Web, Email, File Transfer           | Games, Calls, Streaming       |
+
+
+ Summary:
+ TCP = Safe and Reliable Communication
+ UDP = Fast and Lightweight Communication
+
+
+ Personal Learning:
+
+                  Today I learned how TCP and UDP work internally, how connection is established in TCP, why UDP is fast, and where each is used. 
+                  I also understood the deep technical differences in behavior, speed, and reliability between them.
+
+ 
+Locked Concepts:
+
+ TCP = Reliable, Formal, Setup Required
+ UDP = Quick, Informal, No Setup
+
+
+💻 Uploaded by: Anosha Shahid
+📅 Date:  30-April-2025
